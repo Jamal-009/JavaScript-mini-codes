@@ -1,0 +1,9 @@
+function confirmEnding(str1, target){
+  if(str1.slice(-target.length) === target){
+    return true;
+  } else{
+    return false;
+  }
+}
+
+// it can be used to confirm like URL etc etc...
